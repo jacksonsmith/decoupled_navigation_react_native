@@ -9,6 +9,7 @@ export default function HomeScreen({navigation}) {
       <Button
         title="Just go to second screen"
         onPress={() => {
+          console.log('TESTE');
           navigation.navigate('Details');
         }}
       />
